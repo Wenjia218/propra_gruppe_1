@@ -1,0 +1,49 @@
+Frage 1:
+
+MySQL 1: SELECT COUNT(DISTINCT Family) FROM Alignments
+# DISTINCT -> Replikation vermeiden
+# COUNT -> Families abzählen
+
+Answer 1:	1031
+
+
+Frage 2:
+MySQL 2: SELECT COUNT(Sequence) FROM Alignments WHERE term="sequence"
+MYSQL 2: SELECT COUNT(DISTINCT ProteinID) FROM Alignments WHERE term = "sequence"
+# WHERE weist darauf hin, dass nur Sequenzen hier gezählt werden
+# verschiedene Sequenzen kommen aus verschiedene Proteine, und kann man dann einfach unterschiedliche Proteine zählen
+
+Answer 2:	3456	3078
+
+
+Frage 3:
+MySQL 3:CREATE VIEW countP AS 
+	SELECT ProteinID, COUNT(*) as frequency 
+	FROM Alignments
+	WHERE Term="Sequence" 
+	GROUP BY ProteinID 
+	ORDER BY COUNT(*) DESC;
+# create view, bietet dann eine vorläufige Tabelle.
+# Die enhält in der erste Spalte ProteinID, in der zweite Spalte Frequenz
+# und zwar durch "ORDER BY COUNT(*) DESC" werden sie zugeordnet von am häufigsten oben und am seltensten unter
+
+MySQL 3:SELECT frequency, COUNT(*) as t
+   	    FROM countP
+    	GROUP BY frequency
+    	ORDER BY frequency ASC;
+# bearbeiten weiter mit View
+# zählen mit COUNT(*) wie oft eine Frequenz vorkommt
+# ASC bedeutet von der wenigstene Frequenz zu die meisten Frequenz
+
+# Hier die Antworten
+Answer 3:       ( 1: 2884 )     ( 2: 55 )      ( 3: 110 )       ( 4: 18 )       ( 5: 6 )        ( 6: 5 )
+	
+
+Frage 4:
+MySQL 4:SELECT ProteinID, frequency FROM countP WHERE frequency=6
+# es verwendet wieder mein View als countP
+# mit WHERE + Bedingung führt dazu, dass ich nur dann die häufigsten Proteine bekomme
+
+# Hier die Antworten
+Answer 4:	(1d3c,6) 	 (1qhp,6) 	 (1cyg,6) 	 (1ciu,6) 	 (1cgt,6)
+# Es stimmt nicht auf dem Abgabeserver wegen der Reihefolge, was nichts ausmacht

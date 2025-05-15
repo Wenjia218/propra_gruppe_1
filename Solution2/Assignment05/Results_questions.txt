@@ -1,0 +1,5 @@
+Wie viele ORFs finden Sie, die f ̈ur Proteine mit einer L ̈ange zwischen 75 und 100 AA
+kodieren?
+Für Hefe Chromosom 1: 82
+Für GC_50: 111
+Für Hefe Vergleich: 35

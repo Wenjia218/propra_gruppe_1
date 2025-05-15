@@ -1,0 +1,15 @@
+I used two different inputs as dataset
+
+The first one is the sequence of TP53 tumor protein p53
+
+I chose this as the first input, as it was the first output when searching Human Genom Recources from NCBI
+with the inputs "homo sapiens" and "cervical infections" which is a disease related to the given organism "Mycoplasma genitalium"
+Then I used blastp to create the tables in output1
+
+the second input is the sequence of methionine sulfoxide reductase A
+
+I chose this as the second input, as it was a result when searching with the inputs "homo sapiens" and "Myoplasma genitalium" on the
+same website
+With input2 I chose the same procedure as with output2
+
+The second input has more hits than the first, which makes sense, because one parameter of my search in HGR was the given organism name

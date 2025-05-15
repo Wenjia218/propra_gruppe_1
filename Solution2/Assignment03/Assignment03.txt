@@ -1,0 +1,36 @@
+CREATE TABLE Sequences(
+
+Source 		VARCHAR(50)	NOT NULL,
+ID		VARCHAR(50)	NOT NULL, 
+Sequence 	LONGTEXT	NOT NULL,
+Organism	VARCHAR(100),
+PRIMARY KEY(Source,ID)
+);
+
+
+CREATE TABLE Keywords(
+Keyword 	VARCHAR(50)	PRIMARY KEY
+);
+
+CREATE TABLE functions(
+Source 		VARCHAR(50)	REFERENCES Sequences(Source),
+ID 		VARCHAR(50)	REFERENCES Sequences(Source),
+Keyword		VARCHAR(50)	REFERENCES Keywords(Keyword),
+PRIMARY KEY(Source,ID,Keyword)
+);
+
+
+
+CREATE TABLE ORFs(
+Source		VARCHAR(50)	REFERENCES Sequences(Source),
+ID		VARCHAR(50)	REFERENCES Sequences(Source),
+Start	INT	CHECK(Start>=0),
+End	INT	CHECK(End>=0),
+PRIMARY KEY(Start,End)
+);
+
+
+CREATE TABLE Alignments(
+
+
+);

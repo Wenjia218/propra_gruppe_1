@@ -1,0 +1,367 @@
+ID   104K_THEPA     STANDARD;      PRT;   924 AA.
+AC   P15711;
+DT   01-APR-1990 (Rel. 14, Created)
+DT   01-APR-1990 (Rel. 14, Last sequence update)
+DT   01-AUG-1992 (Rel. 23, Last annotation update)
+DE   104 kDa microneme-rhoptry antigen.
+OS   Theileria parva.
+OC   Eukaryota; Alveolata; Apicomplexa; Piroplasmida; Theileriidae;
+OC   Theileria.
+OX   NCBI_TaxID=5875;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=Muguga;
+RX   MEDLINE=90158697; PubMed=1689460; DOI=10.1016/0166-6851(90)90007-9;
+RA   Iams K.P., Young J.R., Nene V., Desai J., Webster P., Ole-Moiyoi O.K.,
+RA   Musoke A.J.;
+RT   "Characterisation of the gene encoding a 104-kilodalton microneme-
+RT   rhoptry protein of Theileria parva.";
+RL   Mol. Biochem. Parasitol. 39:47-60(1990).
+CC   -!- SUBCELLULAR LOCATION: In microneme/rhoptry complexes.
+CC   -!- DEVELOPMENTAL STAGE: Sporozoite antigen.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; M29954; AAA18217.1; -.
+DR   PIR; A44945; A44945.
+DR   TIGRFAMs; TIGR01870; cas_TM1810; 1.
+KW   Antigen; Repeat; Sporozoite.
+FT   DOMAIN        1     19       Hydrophobic.
+FT   DOMAIN      905    924       Hydrophobic.
+SQ   SEQUENCE   924 AA;  103625 MW;  289B4B554A61870E CRC64;
+     MKFLILLFNI LCLFPVLAAD NHGVGPQGAS GVDPITFDIN SNQTGPAFLT AVEMAGVKYL
+     QVQHGSNVNI HRLVEGNVVI WENASTPLYT GAIVTNNDGP YMAYVEVLGD PNLQFFIKSG
+     DAWVTLSEHE YLAKLQEIRQ AVHIESVFSL NMAFQLENNK YEVETHAKNG ANMVTFIPRN
+     GHICKMVYHK NVRIYKATGN DTVTSVVGFF RGLRLLLINV FSIDDNGMMS NRYFQHVDDK
+     YVPISQKNYE TGIVKLKDYK HAYHPVDLDI KDIDYTMFHL ADATYHEPCF KIIPNTGFCI
+     TKLFDGDQVL YESFNPLIHC INEVHIYDRN NGSIICLHLN YSPPSYKAYL VLKDTGWEAT
+     THPLLEEKIE ELQDQRACEL DVNFISDKDL YVAALTNADL NYTMVTPRPH RDVIRVSDGS
+     EVLWYYEGLD NFLVCAWIYV SDGVASLVHL RIKDRIPANN DIYVLKGDLY WTRITKIQFT
+     QEIKRLVKKS KKKLAPITEE DSDKHDEPPE GPGASGLPPK APGDKEGSEG HKGPSKGSDS
+     SKEGKKPGSG KKPGPAREHK PSKIPTLSKK PSGPKDPKHP RDPKEPRKSK SPRTASPTRR
+     PSPKLPQLSK LPKSTSPRSP PPPTRPSSPE RPEGTKIIKT SKPPSPKPPF DPSFKEKFYD
+     DYSKAASRSK ETKTTVVLDE SFESILKETL PETPGTPFTT PRPVPPKRPR TPESPFEPPK
+     DPDSPSTSPS EFFTPPESKR TRFHETPADT PLPDVTAELF KEPDVTAETK SPDEAMKRPR
+     SPSEYEDTSP GDYPSLPMKR HRLERLRLTT TEMETDPGRM AKDASGKPVK LKRSKSFDDL
+     TTVELAPEPK ASRIVVDDEG TEADDEETHP PEERQKTEVR RRRPPKKPSK SPRPSKPKKP
+     KKPDSAYIPS ILAILVVSLI VGIL
+//
+ID   AMYC_THETU     STANDARD;      PRT;   274 AA.
+AC   P37729; P26828;
+DT   01-AUG-1992 (Rel. 23, Created)
+DT   01-OCT-1994 (Rel. 30, Last sequence update)
+DT   05-JUL-2004 (Rel. 44, Last annotation update)
+DE   Potential starch degradation products transport system permease
+DE   protein amyC.
+GN   Name=amyC;
+OS   Thermoanaerobacter thermosulfurogenes (Clostridium
+OS   thermosulfurogenes).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacteriales;
+OC   Thermoanaerobacteriaceae; Thermoanaerobacterium.
+OX   NCBI_TaxID=33950;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=DSM 3896 / EM1;
+RX   MEDLINE=91340095; PubMed=1874408; DOI=10.1016/0378-1097(91)90476-Q;
+RA   Bahl H., Burchhardt G., Wienecke A.;
+RT   "Nucleotide sequence of two Clostridium thermosulfurogenes EM1 genes
+RT   homologous to Escherichia coli genes encoding integral membrane
+RT   components of binding protein-dependent transport systems.";
+RL   FEMS Microbiol. Lett. 65:83-87(1991).
+RN   [2]
+RP   SEQUENCE OF 115-274 FROM N.A.
+RC   STRAIN=DSM 3896 / EM1;
+RX   MEDLINE=91307320; PubMed=1854207;
+RA   Bahl H., Burchhardt G., Spreinat A., Haeckel K., Weinecke A.,
+RA   Schmidt B., Antranikian G.;
+RT   "Alpha-amylase of Clostridium thermosulfurogenes EM1: nucleotide
+RT   sequence of the gene, processing of the enzyme, and comparison of
+RT   other alpha-amylases.";
+RL   Appl. Environ. Microbiol. 57:1554-1559(1991).
+CC   -!- FUNCTION: Probably part of a binding-protein-dependent transport
+CC       system starch degradation products. Probably responsible for the
+CC       translocation of the substrate across the membrane.
+CC   -!- SUBCELLULAR LOCATION: Integral membrane protein (Potential).
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. MalFG subfamily.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; M57692; AAB00844.1; -.
+DR   PIR; S37705; S37705.
+DR   InterPro; IPR000515; BPD_transp.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+KW   Transmembrane; Transport.
+FT   TRANSMEM     11     31       Potential.
+FT   TRANSMEM     73     93       Potential.
+FT   TRANSMEM    103    123       Potential.
+FT   TRANSMEM    139    159       Potential.
+FT   TRANSMEM    184    204       Potential.
+FT   TRANSMEM    238    258       Potential.
+FT   CONFLICT    115    155       IPFQSVMIPLVAEFGKFHFLTRSGLVFMYLGFGSSLGVFLY
+FT                                -> DPVSISYDSISSGIWEISFSYKVRACIYVLGIWFKLRS
+FT                                VFIL (in Ref. 2).
+SQ   SEQUENCE   274 AA;  30994 MW;  5921E22D0A4B8819 CRC64;
+     MRKVHVQKYL LTFLGIVLSL LWISPFYIIL VNSFKTKLEL FTNTLSLPKS LMLDNYKTAA
+     ANLNLSEAFS NTLIITVFSI LIIAIFSSMT AYALQRVKRK SSVIIYMIFT VAMLIPFQSV
+     MIPLVAEFGK FHFLTRSGLV FMYLGFGSSL GVFLYYGALK GIPTSLDEAA LIDGCSRFRI
+     YWNIILPLLN PTTITLAVLD IMWIWNDYLL PSLVINKVGS RTLPLMIFYF FSQYTKQWNL
+     GMAGLTIAIL PVVIFYFLAQ RKLVTAIIAG AVKQ
+//
+ID   AMYD_THETU     STANDARD;      PRT;   292 AA.
+AC   P37730;
+DT   01-OCT-1994 (Rel. 30, Created)
+DT   01-OCT-1994 (Rel. 30, Last sequence update)
+DT   05-JUL-2004 (Rel. 44, Last annotation update)
+DE   Potential starch degradation products transport system permease
+DE   protein amyD.
+GN   Name=amyD;
+OS   Thermoanaerobacter thermosulfurogenes (Clostridium
+OS   thermosulfurogenes).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacteriales;
+OC   Thermoanaerobacteriaceae; Thermoanaerobacterium.
+OX   NCBI_TaxID=33950;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=DSM 3896 / EM1;
+RX   MEDLINE=91340095; PubMed=1874408; DOI=10.1016/0378-1097(91)90476-Q;
+RA   Bahl H., Burchhardt G., Wienecke A.;
+RT   "Nucleotide sequence of two Clostridium thermosulfurogenes EM1 genes
+RT   homologous to Escherichia coli genes encoding integral membrane
+RT   components of binding protein-dependent transport systems.";
+RL   FEMS Microbiol. Lett. 65:83-87(1991).
+CC   -!- FUNCTION: Probably part of a binding-protein-dependent transport
+CC       system starch degradation products. Probably responsible for the
+CC       translocation of the substrate across the membrane.
+CC   -!- SUBCELLULAR LOCATION: Integral membrane protein (Potential).
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport
+CC       system permease family. MalFG subfamily.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; M57692; AAB00843.1; -.
+DR   PIR; S37704; S37704.
+DR   InterPro; IPR000515; BPD_transp.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+KW   Transmembrane; Transport.
+FT   TRANSMEM     15     35       Potential.
+FT   TRANSMEM     77     97       Potential.
+FT   TRANSMEM    110    130       Potential.
+FT   TRANSMEM    156    176       Potential.
+FT   TRANSMEM    205    225       Potential.
+FT   TRANSMEM    260    280       Potential.
+SQ   SEQUENCE   292 AA;  32908 MW;  9FF68F85EED22D8F CRC64;
+     MAKKAKFFKN GIWYWLFIAP TLLSLIIVVL IPFIIGIYYS FTDWNGINQP VFIGLKNFMT
+     LRDDAEFWNS IIFTAKFAVA CIVIINVVGL SLAMLVTRKI FARNFMRTAF YLPNLIGGLI
+     LGFIWNFIFV DVFQTISDAT HIGWLGGWLS TTNTGFWGLV IVTSWQMIGY VMVIYIAYIE
+     SIPTDLIEAS KIDGANSWQQ FRNVVFPLIA PAFTVSLFIT LSNSFKLFDQ NLSLTAGAPG
+     NTTQMITLNI YQTAFSAQEM AVGQAKAVIM FLIIAVISVI QVYLTQKREV EM
+//
+ID   AMYG_ARXAD     STANDARD;      PRT;   624 AA.
+AC   P42042;
+DT   01-NOV-1995 (Rel. 32, Created)
+DT   01-NOV-1995 (Rel. 32, Last sequence update)
+DT   01-OCT-2004 (Rel. 45, Last annotation update)
+DE   Glucoamylase precursor (EC 3.2.1.3) (Glucan 1,4-alpha-glucosidase)
+DE   (1,4-alpha-D-glucan glucohydrolase).
+GN   Name=GAA;
+OS   Arxula adeninivorans (Yeast).
+OC   Eukaryota; Fungi; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Dipodascaceae; mitosporic Dipodascaceae; Arxula.
+OX   NCBI_TaxID=37620;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=LS3;
+RA   Bui Minh D., Kunze I., Foerster S., Wartmann T., Horstmann C.,
+RA   Manteuffel R., Kunze G.;
+RT   "Cloning and expression of an Arxula adeninivorans glucoamylase gene
+RT   in Saccharomyces cerevisiae.";
+RL   Appl. Microbiol. Biotechnol. 44:610-619(1996).
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of terminal 1,4-linked alpha-D-
+CC       glucose residues successively from non-reducing ends of the chains
+CC       with release of beta-D-glucose.
+CC   -!- SIMILARITY: Belongs to family 15 of glycosyl hydrolases.
+CC   -!- SIMILARITY: Contains 1 carbohydrate binding type-21 (CBM21)
+CC       domain.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; Z46901; CAA86997.1; -.
+DR   HSSP; P04064; 1GAI.
+DR   InterPro; IPR005036; CBM_21.
+DR   InterPro; IPR000165; Glyco_hydro_15.
+DR   InterPro; IPR008928; Glyco_trans_6hp.
+DR   Pfam; PF03370; CBM_21; 1.
+DR   Pfam; PF00723; Glyco_hydro_15; 1.
+DR   PRINTS; PR00736; GLHYDRLASE15.
+DR   PROSITE; PS00820; GLUCOAMYLASE; 1.
+KW   Glycoprotein; Glycosidase; Hydrolase; Polysaccharide degradation;
+KW   Signal.
+FT   SIGNAL        1     18       Potential.
+FT   CHAIN        19    624       Glucoamylase.
+FT   DOMAIN       26    132       Carbohydrate binding type-21.
+FT   ACT_SITE    340    340       Proton acceptor (By similarity).
+FT   ACT_SITE    343    343       Proton donor (By similarity).
+FT   CARBOHYD     54     54       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD     70     70       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD     98     98       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    111    111       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    168    168       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    267    267       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    333    333       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    460    460       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    582    582       N-linked (GlcNAc...) (Potential).
+SQ   SEQUENCE   624 AA;  68980 MW;  74C2CDFB43FF71B4 CRC64;
+     MRQFLALAAA ASIAVADSCH TFTLANSPPD DKAVALSSYS YCGGYLSASA FVKNLSYDKL
+     VTLYWTNADN KSTPLNAGSL DYVKAASDDQ SWELWSLNVT TVPDGVDALL NITYVAASIG
+     KTNSQQLNVQ VEATGDPIPT PQIPTIYKPY ASPSDFSDDI TNWLKPSNDS QTGIAKSFLF
+     NNINIPGAAP GTVIAAQSYS EPDYAYTWVR DASLVMDVVN RLYSSAKSEE KRQLYEKILF
+     QYAKAGAQEQ NDPTAISGMG EPKFYLNNTA FTGSWGRPQN DGPATRAITL IEFANAYLAN
+     GGSQDTVREQ LYDSDKYPQV APIKKDLQFV ASNWSSPSFD LWEEEESAHF YTRLVQRKAL
+     LLGADFANDM GDHELSDKLK TQASKLSDTL PEFWDSARQL ILYEYGPVLR GKYSYKDISV
+     VLGVMHGYAN DNVFSYTNDQ ILATAYQVST SFLDVYKVAN TTSDESGKPL GIPVGRYPED
+     VYDGVGTSQG NPWYLTTMAM AEFLYRSVQE FEDAGSIIIS DTSLPFWKYF ASSVDHKAGA
+     KYNKNDQSFK TSLKSLTGWG DAFMRRAKYH TPSSGHMSEE FNRTTGEPRG AKDLTWSYAS
+     LLSAAFAREE LRNQKNYLTN VADL
+//
+ID   AMYG_ASPKA     STANDARD;      PRT;   639 AA.
+AC   P23176;
+DT   01-NOV-1991 (Rel. 20, Created)
+DT   01-NOV-1991 (Rel. 20, Last sequence update)
+DT   05-JUL-2004 (Rel. 44, Last annotation update)
+DE   Glucoamylase I precursor (EC 3.2.1.3) (Glucan 1,4-alpha-glucosidase)
+DE   (1,4-alpha-D-glucan glucohydrolase).
+GN   Name=GAI;
+OS   Aspergillus kawachi (Aspergillus awamori var. kawachi).
+OC   Eukaryota; Fungi; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiales; Trichocomaceae; mitosporic Trichocomaceae; Aspergillus.
+OX   NCBI_TaxID=40384;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RA   Hayashida S., Kuroda K., Ohta K., Kuhara S., Fukuda K., Sakaki Y.;
+RT   "Molecular cloning of the glucoamylase I gene of Aspergillus awamori
+RT   var. kawachi for localization of the raw-starch-affinity site.";
+RL   Agric. Biol. Chem. 53:923-929(1989).
+RN   [2]
+RP   SEQUENCE OF 494-538.
+RA   Hayashida S., Nakahara K., Kuroda K., Miyata T., Iwanaga S.;
+RT   "Structure of the raw-starch-affinity site on the Aspergillus awamori
+RT   var. kawachi glucoamylase I molecule.";
+RL   Agric. Biol. Chem. 53:135-141(1989).
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of terminal 1,4-linked alpha-D-
+CC       glucose residues successively from non-reducing ends of the chains
+CC       with release of beta-D-glucose.
+CC   -!- SIMILARITY: Belongs to family 15 of glycosyl hydrolases.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; D00427; BAA00331.1; -.
+DR   PIR; JT0479; JT0479.
+DR   HSSP; P04064; 1GAI.
+DR   GlycoSuiteDB; P23176; -.
+DR   InterPro; IPR008291; Glu-a-glcsd_SBD.
+DR   InterPro; IPR000165; Glyco_hydro_15.
+DR   InterPro; IPR002044; Glyco_hydro_CBD.
+DR   InterPro; IPR008928; Glyco_trans_6hp.
+DR   Pfam; PF00686; CBM_20; 1.
+DR   Pfam; PF00723; Glyco_hydro_15; 1.
+DR   PIRSF; PIRSF001031; Glu-a-glcsd_SBD; 1.
+DR   PRINTS; PR00736; GLHYDRLASE15.
+DR   ProDom; PD001568; CBD_4; 1.
+DR   PROSITE; PS00820; GLUCOAMYLASE; 1.
+KW   Direct protein sequencing; Glycoprotein; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Signal.
+FT   SIGNAL        1     18
+FT   PROPEP       19     24
+FT   CHAIN        25    639       Glucoamylase I.
+FT   DOMAIN      494    538       Raw-starch-adsorbable GP-I sequence.
+FT   BINDING     143    143       Substrate (By similarity).
+FT   ACT_SITE    199    199       Proton acceptor (By similarity).
+FT   ACT_SITE    202    202       Proton donor (By similarity).
+FT   DISULFID    233    236       By similarity.
+FT   DISULFID    245    472       By similarity.
+FT   DISULFID    285    293       By similarity.
+FT   CARBOHYD    194    194       N-linked (GlcNAc...) (By similarity).
+FT   CARBOHYD    418    418       N-linked (GlcNAc...) (By similarity).
+FT   CARBOHYD    464    464       O-linked (By similarity).
+FT   CARBOHYD    466    466       O-linked (By similarity).
+FT   CARBOHYD    467    467       O-linked (By similarity).
+FT   CARBOHYD    475    475       O-linked (By similarity).
+FT   CARBOHYD    476    476       O-linked (By similarity).
+FT   CARBOHYD    482    482       O-linked (By similarity).
+FT   CARBOHYD    483    483       O-linked (By similarity).
+FT   CARBOHYD    485    485       O-linked (By similarity).
+FT   CARBOHYD    487    487       O-linked (By similarity).
+FT   CARBOHYD    491    491       O-linked (By similarity).
+FT   CARBOHYD    495    495       O-linked (By similarity).
+FT   CARBOHYD    498    498       O-linked (By similarity).
+FT   CARBOHYD    499    499       O-linked (By similarity).
+FT   CARBOHYD    500    500       O-linked (By similarity).
+FT   CARBOHYD    501    501       O-linked (By similarity).
+FT   CARBOHYD    503    503       O-linked (By similarity).
+FT   CARBOHYD    505    505       O-linked (By similarity).
+FT   CARBOHYD    507    507       O-linked (By similarity).
+FT   CARBOHYD    511    511       O-linked (By similarity).
+FT   CARBOHYD    512    512       O-linked (By similarity).
+FT   CARBOHYD    513    513       O-linked (By similarity).
+FT   CARBOHYD    514    514       O-linked (By similarity).
+FT   CARBOHYD    516    516       O-linked (By similarity).
+FT   CARBOHYD    517    517       O-linked (By similarity).
+FT   CARBOHYD    519    519       O-linked (By similarity).
+FT   CARBOHYD    521    521       O-linked (By similarity).
+FT   CARBOHYD    523    523       O-linked (By similarity).
+FT   CARBOHYD    524    524       O-linked (By similarity).
+FT   CARBOHYD    525    525       O-linked (By similarity).
+FT   CARBOHYD    526    526       O-linked (By similarity).
+FT   CARBOHYD    527    527       O-linked (By similarity).
+FT   CARBOHYD    528    528       O-linked (By similarity).
+FT   CARBOHYD    529    529       O-linked (By similarity).
+FT   CARBOHYD    530    530       O-linked (By similarity).
+FT   CARBOHYD    531    531       O-linked (By similarity).
+FT   CARBOHYD    533    533       O-linked (By similarity).
+FT   CARBOHYD    534    534       O-linked (By similarity).
+SQ   SEQUENCE   639 AA;  68271 MW;  E112B31A4DD8DD6B CRC64;
+     MSFRSLLALS GLVCSGLANV ISKRATLDSW LSNEATVART AILNNIGADG AWVSGADSGI
+     VVASPSTDNP DYFYTWTRDS GLVIKTLVDL FRNGDTDLLS TIEHYISSQA IIQGVSNPSG
+     DLSSGGLGEP KFNVDETAYT GSWGRPQRDG PALRATAMIG FGQVLLDNGY TSAATEIVWP
+     LVRNDLSYVA QYWNQTGYDL WEEVNGSSFF TIAVQHRALV EGSAFATAVG SSCSWCDSQA
+     PQILCYLQSF WTGSYILANF DSRRSGKDTN TLLGSIHTFD PEAGCDDSTF QPCSPRALAN
+     HKEVVDSFRS IYTLNDGLSD SEAVAVGRYP EDSYYNGNPW FQSTLAAAEQ LYDALYQWDK
+     QGSLEITDVS LDFFKALYSG AATGTYSSSS STYSSIVSAV KTFADGFVSI VETHAASNGS
+     LSEQFDKSDG DELSARDLTW SYAALLTANN RRNSVVPPSW GETSASSWPG TCAATSASGT
+     YSSVTVTSWP SIVATGGTTT TATTTGSGGV TSTSKTTTTA SKTSTTTSST SCTTPTAVAV
+     TFDLTATTTY GENIYLVGSI SQLGDWETSD GIALSADKYT SSNPLWYVTV TLPAGESFEY
+     KFIRVESDDS VEWESDPNRE YTVPQACGES TATVTDTWR
+//

@@ -1,0 +1,46 @@
+1MBN: 6 helices in a knot
+SCOP
+> Class a: All alpha proteins
+> Fold a.1: Globin-like
+> (core: 6 helices; folded leaf, partly opened)
+CATH
+> Class 1: Mainly Alpha
+> Architecture 1.10: Orthogonal Bundle
+> Topology/fold 1.10.490: Globin-like
+
+1BAF: 2 domains with many sheets, kind of sandwich-like
+SCOP
+> Class b: All beta proteins
+> Fold b.1: Immunoglobulin-like beta-sandwich
+> (sandwich; 7 strancs in 2 sheets; greek-key)
+> (some members of the fold have additional strands)
+CATH
+> Class 2: Mainly Beta
+> Architecture 2.60: Sandwich
+> Topology/fold 2.60.40: Immunoglobulin-like
+
+1TIM: 2 domains with alpha/beta barrels
+SCOP
+> Class c: Alpha and beta proteins (a/b)
+> Fold c.1: TIM beta/alpha-barrel
+> (contains parallel beta-sheet barrel, closed; n=8, S=8; strand order 12345678)
+> (the first seven superfamilies have similar phosphate-binding sites)
+CATH
+> Class 3: Alpha Beta
+> Architecture 3.20: Alpha-Beta Barrel
+> Topology/fold 3.20.20: TIM Barrel
+
+256b: 2 x 4 helix bundles
+SCOP
+> Class a: All alpha proteins
+> Fold a.24: Four-helical up-and-down bundle
+> (core: 4 helices; bundle, closed or partly opened, left-handed twist; up-and-down)
+CATH
+> Class 1: Mainly Alpha
+> Architecture 1.20: Up-down Bundle
+> Topology/fold 1.20.120: Four Helix Bundle (Hemerythrin (Met), subunit A)
+
+Overall both systems net fairly similar classifications for Class and Folds,
+even if they're called Topology per the CATH acronym.
+Personally I found CATH easier to use with the extra Architecture layer between Class and Fold (or Topology),
+whereas with SCOP the enormous list of Folds in each Class was a bit overwhelming.

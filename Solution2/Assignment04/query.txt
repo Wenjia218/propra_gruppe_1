@@ -1,0 +1,8 @@
+INSERT INTO Keywords
+VALUES(%s)
+
+INSERT INTO functions
+VALUES(%s,%s)
+
+INSERT INTO Sequences
+VALUES(%s,%s,%s,%s)

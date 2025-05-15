@@ -1,0 +1,21 @@
+Documentation for Bowtie Assignment13:
+
+First I ran the script from Assignment 10 Solution 1 for every file in genome_files and saved them as fasta files
+
+Next I ran the script from Assignment 13 from Solution 1 for every fasta that was created previously
+
+Then I ran the bowtie script on the bioclient1 server and used following flags:
+
+-v 3 alignment for aligning with up to 3 mismatches
+-S for SAM as output file type
+-f file to set the fasta input file
+-a to align all reads
+
+
+and ran this for every file in the hg19 genome sequence
+
+so the command looked like this: (e.g.)
+
+python3 /mnt/biocluster/praktikum/bioprakt/Software/bowtie-1.2.2/bowtie /mnt/biocluster/praktikum/bioprakt/Software/bowtie-1.2.2/indexes/hg19/bt -v 3 -S -f -a Helicobact_Erkennungssequenzen.fasta Helicobact.SAM
+
+
