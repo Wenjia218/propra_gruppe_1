@@ -1,0 +1,67 @@
+ChIP-seq
+ChIP steht hier für Chromatin-Immunopräzipitation, seq für Sequenzierung.  
+(Quelle: https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html)
+
+> Präzipitation bezeichnet den Vorgang, 
+> bei dem in einer Lösung entstehende Antigen-Antikörper-Komplexe 
+> aufgrund ihrer Größe ausfallen, 
+> d.h. als fester Niederschlag in der Lösung erscheinen.
+(Quelle: https://flexikon.doccheck.com/de/Pr%C3%A4zipitation)
+
+Insgesamt wird bei ChIP-seq also zuerst mithilfe von Antikörpern DNA-Abschnitte,
+an denen die Proteine binden, die von Interesse sind, heraussortiert.
+Diese DNA-Abschnitte werden dann sequenziert;
+somit kann man dann evtl. Motive erkennen, die in vielen der Abschnitte vorkommen,
+wodurch man darauf rückschließen kann, an welchen Sequenzen die interessanten Proteine gebunden waren.  
+(Quelle: https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html)
+
+RNA-seq
+Die RNA-Sequenzierung hat das Ziel, Sequenzen zu erkennen,
+die auch tatsächlich zu RNA transkribiert wurden.
+Dabei wird die RNA, die tatsächlich vorhanden ist,
+in einer reversen Transkription in cDNA umgeschrieben,
+welche dann mit üblichen Methoden sequenziert werden kann.  
+(Quelle: https://doi.org/10.1038/nrg2484)
+
+
+Zelllinie mit meisten verschiedenen Antikörpern
+Laut meinem Ergebnis in der antibodies.tsv-Datei wurden
+bei der Zelllinie K562 mit 167 die meisten verschiedenen Antikörper verwendet.
+
+NFKB
+NFKB (bzw. NF-κB) steht für "Nuklearer Faktor kappa B",
+welche Transkriptionsfaktoren enthält,
+die bei der Regulation des Immunsystems eine wichtige Rolle spielen.  
+(Quelle: https://doi.org/10.1002/wsbm.1331)
+
+Pol2
+Pol2 (oder auch Pol II) steht für Polymerase II; im Fall von ChIP-Seq wahrscheinlich DNA-Polymerase II.
+Diese wirkt katalytisch und dient dem Korrekturlesen bei einer DNA-Replikation.  
+(Quelle: https://www.differkinome.com/articles/biology-science-nature/difference-between-dna-polymerase-1-2-and-3.html)
+
+H3K27me3
+In H3K27me3 steht H3 für die Untereinheit H3 eines Histons,
+K27 für ein Lysin (welches in Kurzform als K codiert wird) and Position 27
+und me3 für eine dreifache Methylierung.
+Diese Modifikation steht oft in Zusammenhang mit Heterochromatin,
+impliziert daher eher transkriptomisch inaktive Regionen der DNA.  
+(Quelle: https://en.wikipedia.org/wiki/H3K27me3)
+
+
+Zelllinien mit ChIP-seq (für H3K27me3) und RNA-seq Experimenten
+In meiner Ausgabe von chip_rna_seq.tsv werden folgende Zelllinien genannt,
+die sowohl mit ChIP-seq als auch mit RNA-seq sequenziert wurden:
+- A549
+- AG04450
+- BJ
+- GM12878
+- H1-hESC
+- HMEC
+- HSMM
+- HUVEC
+- HeLa-S3
+- HepG2
+- K562
+- NHEK
+- NHLF
+- SK-N-SH_RA

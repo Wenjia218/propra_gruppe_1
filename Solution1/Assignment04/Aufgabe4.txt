@@ -1,0 +1,17 @@
+Die Sequenz stammt aus SARS-CoV-2 von Menschen.
+
+Insgesamt wurden 90,832,260 Sequenzen durchsucht und 100 davon sind ausgewählt.
+
+Die E-values(Expect Value) bedeuten die Anzahl der erwarteten Treffer mit ähnlicher Qualität (Score), die rein zufällig gefunden werden könnten.
+Je niedriger die E-value ist, desto besser ein "Match" von zwei Sequenzen ist.
+
+Virale Gene:
+/gene="ORF1ab"
+/note="Coronavirus frameshifting stimulation element
+
+/gene="ORF10"
+/note="Coronavirus 3' UTR pseudoknot stem-loop 1"
+/note="Coronavirus 3' stem-loop II-like motif (s2m)"
+
+Artikel zu dem Gen/Protein des Virus(Beispiel):
+Ultrapotent human antibodies protect against SARS-CoV-2 challenge via multiple mechanisms

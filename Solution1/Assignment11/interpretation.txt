@@ -1,0 +1,28 @@
+When comparing M. tuberculosis and H. sapiens Chr. 08,
+one of the things of note is the difference in CG content:
+it's higher than 65% in M. tuberculosis and just shy of 40% in H. sapiens Chr. 08.
+This difference also speaks to the high thermic resilience of the M. tuberculosis genome,
+which maintains its integrity even after extended exposure to a heat shock.
+(Source: http://dx.doi.org/10.1136/jcp.55.10.778)
+
+From a cursory look, it seems that CTAG is a target of DNA methylation,
+which is more predominant as a mechanism for gene regulation in eukaryotes,
+which could explain why the fold change is much, much lower in M. tuberculosis.
+(Source: https://doi.org/10.1093/nar/gkaa966)
+
+CG as a sequence could be linked to CpG islands,
+which are especially significant in gene regulation through methylation,
+where the methylated C may in turn mutate into a T,
+possibly leading to the depletion of CG sequences outside CpG islands in eukaryotes.
+(Source: https://doi.org/10.1073%2Fpnas.0510310103)
+
+AACCCTGTC when translated into an amino acid sequence could be read as NPV (Asn-Pro-Val) or DRV (Asp-Arg-Val).
+DRV is also the beginning sequence in angiotensinogen, the precursor to various angiotensines,
+which are important when it comes to how tight (or tense) blood vessels are,
+thereby regulating blood pressure, which is quite important in humans (hence possibly the extremely high fold change),
+but much less so in M. tuberculosis.
+(Sources:
+https://pubchem.ncbi.nlm.nih.gov/compound/Angiotensinogen
+https://www.ncbi.nlm.nih.gov/mesh/68000808)
+
+ATG in DNA becomes AUG in RNA, which is the start triplet for building peptide polymers in living organisms.

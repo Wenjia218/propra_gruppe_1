@@ -1,0 +1,58 @@
+#!/usr/bin/python3
+# Import modules for CGI handling
+import cgi, cgitb
+import subprocess
+import os
+
+# enable debugging
+cgitb.enable()
+# print content type
+print("Content-type:text/html\n\n")
+
+HTML_START = open("/", "r")  # here from
+HTML_FORM = """
+    <form name="input" action="spkeyword.py" method="get" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td align="right">text:</td>
+                <td><input type="file" name="file"/></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <input style="padding-left: 120px; padding-right: 120px" type="submit" name="submit"/>
+    </form>
+"""
+HTML_END = 0 # here file from Assignment03
+
+form = cgi.FieldStorage()
+
+UPLOAD_DIR = 'tmp'
+out = None
+
+
+
+if "file" in form:
+    form_file = form['file']
+    if form_file.filename:
+        uploaded_file_path = os.path.join(UPLOAD_DIR, os.path.basename(form_file.filename))
+        with open(uploaded_file_path, 'wb') as fout:
+            while True:
+                chunk = form_file.file.read(10000)
+                if not chunk:
+                    break
+                fout.write(chunk)
+        out = subprocess.check_output(
+            ["python3", "public_html/identify_dna.py", "-f", uploaded_file_path])
+        if out != None:
+            out = out.decode('utf-8', 'ignore')
+
+print(HTML_START)
+if out != None:
+    print(out)
+else:
+    print(HTML_FORM)
+print(HTML_END)
+
+
+# TODO: ADD TEXTFIELD FOR REGEX INPUT
