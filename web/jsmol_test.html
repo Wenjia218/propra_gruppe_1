@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSmol Test</title>
+    <script type="text/javascript" src="jsmol/JSmol.min.js"></script>
+    <script type="text/javascript">
+        const Info = {
+            width: 500,
+            height: 500,
+            j2sPath: "jsmol/j2s"
+        };
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    jmolApplet0 = Jmol.getApplet("jmolApplet0", Info);
+    Jmol.script(jmolApplet0, "background black; load 4hhb.pdb; wireframe only; spin on;")
+</script>
+<br />
+<a href="javascript:Jmol.script(jmolApplet0, 'spin on;')">spin</a>
+<a href="javascript:Jmol.script(jmolApplet0, 'spin off;')">off</a>
+<br />
+<strong>Model:</strong>
+<input id="wireframe" name="vis" type="radio" onclick="Jmol.script(jmolApplet0, 'wireframe only;')" checked="checked" />
+<label for="wireframe">Wireframe</label>
+<input id="cartoon" name="vis" type="radio" onclick="Jmol.script(jmolApplet0, 'cartoon only;')" />
+<label for="cartoon">Cartoon</label>
+<input id="backbone" name="vis" type="radio" onclick="Jmol.script(jmolApplet0, 'backbone only;')" />
+<label for="backbone">Backbone</label>
+</body>
+</html>

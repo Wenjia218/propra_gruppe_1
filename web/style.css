@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Calibri, Verdana, sans-serif;
+}
+
+header {
+    background: orange;
+    text-align: center;
+    margin: 0;
+    padding: .5em;
+}
+
+nav {
+    text-align: left;
+    background: gold;
+    float: left;
+    display: block;
+    padding: 1em;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: .25em .5em;
+    padding: 0;
+}
+
+nav ul li {
+    margin: .1em .5em;
+}
+
+fieldset {
+    border: none;
+}
+
+dt,
+form dt {
+    float: left;
+    clear: left;
+    width: 25%;
+    margin: .5em .2em;
+}
+
+dd,
+form dd {
+    float: left;
+    margin: .5em .2em;
+}
+
+input[type=submit] {
+    float: left;
+    clear: left;
+}
+
+table, pre, fieldset {
+    margin: auto;
+}
+
+table th,
+table td {
+    padding: .2em;
+}
+
+table td:first-child {
+    text-align: right;
+}
